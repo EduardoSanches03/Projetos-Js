@@ -25,29 +25,28 @@ person.getFullName();
 Person.speak();
 */
 
-class Animal{
-    constructor(name){
-        this.name = name;
-    }
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
 
-    speak(){
-        console.log(`${this.name} fez barulho`)
-    }
+  speak() {
+    console.log(`${this.name} fez barulho`);
+  }
 }
 
-class Dog extends Animal{
-    constructor(name){
-        super(name);
-    }
+class Dog extends Animal {
+  constructor(name) {
+    super(name);
+  }
 
-    speak(){
-        console.log(`${this.name} Latiu!`)
-    }
+  speak() {
+    console.log(`${this.name} Latiu!`);
+  }
 }
 
 const animal = new Animal("Simba");
-const dog = new Dog("Bob")
-
+const dog = new Dog("Bob");
 
 animal.speak();
 dog.speak();

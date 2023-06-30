@@ -35,22 +35,22 @@ const la = person.hobbies[1];
 */
 
 const todos = [
-    {
-        id: 1,
-        description: "Estudar Programação",
-        isCompleted: false,
-    },
-    {
-        id:2,
-        description: "Farmar gold no Lost ark",
-        isCompleted: true,
-    },
-    {
-        id: 3,
-        description: "Treinar",
-        isCompleted: true,
-    }
-]
+  {
+    id: 1,
+    description: "Estudar Programação",
+    isCompleted: false,
+  },
+  {
+    id: 2,
+    description: "Farmar gold no Lost ark",
+    isCompleted: true,
+  },
+  {
+    id: 3,
+    description: "Treinar",
+    isCompleted: true,
+  },
+];
 
 const descriptionOfLastTodo = todos[2].description;
 console.log(descriptionOfLastTodo);

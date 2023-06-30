@@ -26,16 +26,16 @@ cars.forEach(function(car, i){
 
 let i = 0;
 
-while( i < 10){
-    console.log("I menor do que 10");
-    i++
+while (i < 10) {
+  console.log("I menor do que 10");
+  i++;
 }
 
 const person = {
-    name: 'Jane',
-    age:'22',
-}
+  name: "Jane",
+  age: "22",
+};
 
-for(property in person){
-    console.log(person[property])
+for (property in person) {
+  console.log(person[property]);
 }

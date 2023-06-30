@@ -1,5 +1,5 @@
-const items = document.querySelector('.items')
-const button = document.querySelector('.btn')
+const items = document.querySelector(".items");
+const button = document.querySelector(".btn");
 //items.remove();
 
 /*
@@ -13,4 +13,3 @@ items.lastElementChild.innerHTML = "<h1> Ultimo item</h1>"
 
 button.style.background = "red";
 button.style.color = "blue";
-
